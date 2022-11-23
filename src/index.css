@@ -8,3 +8,25 @@ body {
     background-color: black;
     font-family: 'Lato', 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* custom scrollbar */
+
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 2px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0 !important;
+    border-radius: 10px !important;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DC2626 !important;
+  border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #DC2626 !important;
+}
